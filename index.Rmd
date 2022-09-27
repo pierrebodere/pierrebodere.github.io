@@ -6,7 +6,7 @@ links:
   - label: 'Email'
     url: "mailto:pmb412@nyu.edu"
   - label: 'GitHub'
-    url: "https://github.com/pmb412"
+    url: "https://github.com/pierrebodere"
 output:
   postcards::trestles
 ---
