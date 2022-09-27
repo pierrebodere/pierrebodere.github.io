@@ -1,0 +1,38 @@
+---
+title: "Research"
+---
+<script>
+function hide_buttons(abstract) {
+    var x = document.getElementById(abstract);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+**Designing Early Childhood Education Policies: a Dynamic Equilibrium Analysis of the Preschool Market** (Job Market Paper)
+
+<button class="button_that_looks_like_link" role="button" onclick="hide_buttons('abstract_preschool')">Abstract</button>
+<div id="abstract_preschool" style="display:none;">
+Evidence of the benefits of high-quality preschool programs for disadvantaged children has fueled recent proposals for massive investments in Early Childhood Education (ECE). A successful scale-up of these programs requires creating incentives for providers to operate in low-income neighborhoods and to invest in high-quality without pricing disadvantaged parents out of the formal market. This paper develops a dynamic model of the preschool market to evaluate the effectiveness of ECE policies at creating these incentives. On the demand side, heterogeneous families trade-off price, quality, and distance in choosing whether and to which center to send their child. On the supply side, providers decide whether to enter, remain open and which quality to offer, and compete on price to attract parents. I estimate this model using data on the universe of child-care centers in Pennsylvania. The estimated model highlights the importance of considering providers' dynamic adjustments when designing ECE policies, and yields three main insights. (1) Reducing costs faced by parents is essential to expanding high-quality preschool education to low-income families. I find that removing subsidies for low-income children  decreases their enrollment by more than 70% on impact, and 85% after 5 years. (2) Targeted subsidies spillover to non-targeted children. More universal subsidies benefit low-income parents by raising centers' incentives to invest in high-quality. Conversely, removing subsidies to low-income parents reduces access for richer families in the medium-run due to centers' exit. (3) Absent spatially targeted policies, new centers' entry decisions do not close the ECE access gap, as more educated neighborhoods are more profitable to operate in.
+</div> 
+</br>
+
+**News Media Concentration and Content Diversity**
+with [<span style="font-weight: normal">Nicolas Longuet Marx</span>](https://nicolaslonguetmarx.github.io/) and [<span style="font-weight: normal">Marguerite Obolensky</span>](https://margueriteobolensky.github.io/)
+
+<button class="button_that_looks_like_link" role="button" onclick="hide_buttons('abstract_media')">Abstract</button>
+<div id="abstract_media" style="display:none;">
+The rise in political polarization over the recent years has fostered scrutiny of the structure of the news industry’ s influence on political outcomes. How should policymakers regulate news producers when they value news diversity and large publishers shape the ideological landscape? To answer this question, we develop an empirical model of competition for readership and advertisers between news producers. We recover the topic content and ideological positions of 200 major U.S. daily newspapers using recent advances in Natural Language Processing on millions of published articles. We find that over the period 2007-2017, the median newspaper in our sample got closer to the ideology of the Democratic party. Second, we embed these topics and ideal points in a demand model for differentiated products with heterogeneous readers. Our model shows that rich readers lean democrat and consume more news about social and political questions while the elderly are more conservative and care more about local news. Using the estimated demand model and data on advertising contracts and readership, we can recover the cost of producing each type of content. Given this model of news supply, we intend to use our framework to provide recommendations on antitrust rules weighing both consumer welfare and ideological diversity.
+</div> 
+
+</br>
+**Detection to Treatment: a Medical Measure of Wait Times to Study Heterogeneity in Access to Health**
+with [<span style="font-weight: normal">Michael Dickstein</span>](http://www.michaeljdickstein.com/) and [<span style="font-weight: normal">Guillaume Fréchette</span>](http://people.cess.fas.nyu.edu/frechette/html/econ.htm)
+
+<button class="button_that_looks_like_link" role="button" onclick="hide_buttons('abstract_wait')">Abstract</button>
+<div id="abstract_wait" style="display:none;">
+Wait time is a key factor of health-care services, yet data is rare, often unreliable, and inconsistently measured across systems. The scarcity of data prevents systematic analyses of allocative inefficiency and inequality in access to health. We propose a measure of wait times - detection to treatment (DTT) - solely based on medical variables, which are both widely available and standardized. DTT records the time elapsed between the detection of a patient as being high-risk of receiving a surgery, and the date of the procedure. We use recurrent neural networks to represent patients’ high-dimensional medical trajectories as a risk profile over time. As expected for a measure of wait times, we find that DTT increases with supply constraints. Patients enrolled in more restrictive insurance plans experience longer DTT and an increase in the load of medical providers increases the wait time. Using provider loads as exogenous variation in wait times, we show that an increase in DTT results in higher medical expenditures, longer hospitalization, and increased use of addictive drugs.
+</div> 
