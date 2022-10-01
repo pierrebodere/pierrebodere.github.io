@@ -96,7 +96,12 @@ a:hover {
 	color: rgb(115,130,118, 0.5);
 }
 
-
+/* Multicolumns Layout */
+.col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
 
 /* Buttons on postcard */
 .btn-outline-dark {

@@ -19,6 +19,21 @@ In my Job Market Paper, I study the design of early childhood education policies
 
 I am on the job market for the Academic Year 2022-2023 and will be available for interviews at the ASSA and EEA meetings. Click [here](content/bodere_academic_cv_nyu.pdf) for my CV.
 
+<div class="col2">
+**Research Interests**
+    <ul>
+      <li>Industrial Organization</li>
+      <li>Education Economics</li>
+      <li>Applied Machine Learning</li>
+    </ul>
+**References**
+    <ul>
+      <li>[Christopher Conlon](https://chrisconlon.github.io/)</li>
+      <li>[Guillaume Fréchette](http://people.cess.fas.nyu.edu/frechette/html/econ.htm)</li>
+      <li>[Daniel Waldinger](https://sites.google.com/view/danielwaldinger)</li>
+    </ul> 
+</div>
+
 </br>
 </br>
 </br>
