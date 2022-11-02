@@ -24,6 +24,7 @@ I am on the job market for the Academic Year 2022-2023 and will be available for
     <ul>
       <li>Industrial Organization</li>
       <li>Education Economics</li>
+      <li>Applied Microeconomics</li>
       <li>Applied Machine Learning</li>
     </ul>
 **References**
