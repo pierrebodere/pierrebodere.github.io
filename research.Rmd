@@ -12,7 +12,7 @@ function hide_buttons(abstract) {
 }
 </script>
 
-**Designing Early Childhood Education Policies: a Dynamic Equilibrium Analysis of the Preschool Market** ([Job Market Paper](content/bodere_jmp.pdf))
+**Dynamic Spatial Competition in Early Education: an Equilibrium Analysis of the Preschool Market in Pennsylvania** ([Job Market Paper](content/bodere_jmp.pdf))
 
 <button class="button_that_looks_like_link" role="button" onclick="hide_buttons('abstract_preschool')">Abstract</button>
 <div id="abstract_preschool" style="display:none;">
