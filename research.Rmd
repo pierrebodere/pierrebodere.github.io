@@ -20,12 +20,29 @@ High-quality preschool is one of the most cost-effective educational interventio
 </div> 
 
 </br>
-**Incorporating Wait Times in Health Insurance Design**
+**Wait Times for Surgery in the U.S.: Measurement and Allocative Efficiency in Private Insurance**
 with [<span style="font-weight: normal">Michael Dickstein</span>](http://www.michaeljdickstein.com/) and [<span style="font-weight: normal">Guillaume Fréchette</span>](http://people.cess.fas.nyu.edu/frechette/html/econ.htm)
 
 <button class="button_that_looks_like_link" role="button" onclick="hide_buttons('abstract_wait')">Abstract</button>
 <div id="abstract_wait" style="display:none;">
-Wait time is a key factor of health-care services, yet data is rare, often unreliable, and inconsistently measured across systems. The scarcity of data prevents systematic analyses of allocative inefficiency and inequality in access to health. We propose a measure of wait times - detection to treatment (DTT) - solely based on medical variables, which are both widely available and standardized. DTT records the time elapsed between the detection of a patient as being high-risk of receiving a surgery, and the date of the procedure. We use recurrent neural networks to represent patients’ high-dimensional medical trajectories as a risk profile over time. As expected for a measure of wait times, we find that DTT increases with supply constraints. Patients enrolled in more restrictive insurance plans experience longer DTT and an increase in the load of medical providers increases the wait time. Using provider loads as exogenous variation in wait times, we show that an increase in DTT results in higher medical expenditures, longer hospitalization, and increased use of addictive drugs.
+In healthcare systems across the world, limited capacity implies that patients must wait to access surgical care. To evaluate the efficiency and equity consequences of rationing care via
+queues, however, requires comprehensive measurement of the length of these waits for multiple
+treatments, patient types, and insurance generosities. We employ machine learning models
+trained on a large claims dataset of U.S. patients with employer-sponsored insurance to measure
+wait times as the delay between (a) the moment our models can confidently classify a patient
+as in need of surgery and (b) the day of the surgery. We use this novel measure to study the
+distribution of wait times for roughly one million patients across many common surgeries. We
+find that men wait less than women, while older patients and patients with comorbidities wait
+longer, suggestive of potential medical inefficiencies. Similarly, we show that health insurance
+design affects surgical wait times in ways that may not coincide with the value of care. Using
+an instrument based on weekly congestion in patients insurance plan, we find that delays have
+adverse effects on recovery across a breadth of medical outcomes. Patients who wait a month
+more are 3.1% more likely to be readmitted in a hospital, spend 5.9% more, and are prescribed
+6.6% more opioids in the six months following a surgery. Combining this empirical design
+with recent machine learning tools to recover heterogeneous effects, we quantify the medical
+allocative efficiency of surgical wait-lists. Applying our estimates to a subset of the surgeries
+that patients undergo, we find that reassigning patient priorities in the queue could substantially
+reduce hospital spending.
 </div> 
 
 </br>
