@@ -11,10 +11,10 @@ output:
   postcards::trestles
 ---
 
-##### I am a Postdoctoral Scholar at Princeton University. 
+##### I am an Assistant Professor of Economics at the Yale School of Management. 
 
 I completed my PhD at New York University in 2023. In my research, I use methods from Empirical Industrial Organization to study access to Education, wait times in Healthcare, and diversity of content in the News market.
 
-I will join the Yale School of Management as an Assistant Professor in Economics in 2024. Click [here](content/bodere_academic_cv_nyu.pdf) for my CV.
+Click [here](content/bodere_academic_cv_nyu.pdf) for my CV.
 
 
