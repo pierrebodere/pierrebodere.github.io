@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -2480,7 +2480,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2556,24 +2556,21 @@ with <a href="http://www.michaeljdickstein.com/"><span style="font-weight: norma
 Abstract
 </button>
 <div id="abstract_wait" style="display:none;">
-<p>In healthcare systems across the world, limited capacity implies that patients must wait to access surgical care. To evaluate the efficiency and equity consequences of rationing care via
-queues, however, requires comprehensive measurement of the length of these waits for multiple
-treatments, patient types, and insurance generosities. We employ machine learning models
-trained on a large claims dataset of U.S. patients with employer-sponsored insurance to measure
-wait times as the delay between (a) the moment our models can confidently classify a patient
-as in need of surgery and (b) the day of the surgery. We use this novel measure to study the
-distribution of wait times for roughly one million patients across many common surgeries. We
-find that men wait less than women, while older patients and patients with comorbidities wait
-longer, suggestive of potential medical inefficiencies. Similarly, we show that health insurance
-design affects surgical wait times in ways that may not coincide with the value of care. Using
-an instrument based on weekly congestion in patients insurance plan, we find that delays have
-adverse effects on recovery across a breadth of medical outcomes. Patients who wait a month
-more are 3.1% more likely to be readmitted in a hospital, spend 5.9% more, and are prescribed
-6.6% more opioids in the six months following a surgery. Combining this empirical design
-with recent machine learning tools to recover heterogeneous effects, we quantify the medical
-allocative efficiency of surgical wait-lists. Applying our estimates to a subset of the surgeries
-that patients undergo, we find that reassigning patient priorities in the queue could substantially
-reduce hospital spending.</p>
+<p>In the face of limited health care resources, waiting time often serves as a rationing mechanism
+in health systems around the world. We evaluate the efficiency and equity consequences
+of rationing via queues in the context of surgical care. Focusing on the U.S. private insurance
+market, we first develop a new measure of wait time that captures the complete patient
+trajectory—including visits for primary care, laboratory testing, and medical imaging—along
+the path to surgery. Exploiting exogenous variation due to weekly congestion within a patient’s
+insurance network, we show that patients who wait a month more spend 1% more on hospital
+care, are 1.1% more likely to be readmitted to a hospital, and fill 2.6% more opioid prescriptions
+in the six months following a surgery. The effects of waiting on hospital outcomes are more
+pronounced for surgeries that follow a cancer diagnosis, while the effects on opioids are largest
+for orthopedic surgeries. We further quantify misallocation of wait times relative to the planner’s
+ideal. We identify heterogeneous effects of waiting, but those patient groups who suffer the
+highest costs from delay do not uniformly experience shorter waits. We illustrate how positive
+prioritization—say, by providing physicians information on the treatment effects of waiting by
+patient type—could reduce payments to hospitals and improve patient health outcomes.</p>
 </div>
 <p></br>
 <strong>News Media Concentration and Content Diversity</strong>
