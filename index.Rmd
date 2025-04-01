@@ -13,7 +13,7 @@ output:
 
 ##### I am an Assistant Professor of Economics at the Yale School of Management. 
 
-I completed my PhD at New York University in 2023. In my research, I use methods from Empirical Industrial Organization to study access to Education, wait times in Healthcare, and diversity of content in the News market.
+I completed my PhD at New York University in 2023. Prior to joining Yale, I was a Postdoctoral Fellow at Princeton. In my research, I use methods from Empirical Industrial Organization to study access to Education, wait times in Healthcare, and diversity of content in the News market.
 
 Click [here](content/bodere_academic_cv_nyu.pdf) for my CV.
 
