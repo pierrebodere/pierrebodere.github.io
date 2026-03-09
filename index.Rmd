@@ -1,6 +1,6 @@
 ---
 title: "Pierre Bodéré"
-image: "images/index_portrait.JPG"
+image: "images/yale_som_photo.JPG"
 site: distill::distill_website
 links:
   - label: 'Email'
